@@ -10,11 +10,11 @@ INSERT INTO posts (id, title, img, content, author_id ) VALUES ('2', 'Or to Not 
 INSERT INTO posts (id, title, img, content, author_id ) VALUES ('3', 'That is the Question', 'Book', 'img.src', '3');
 
 
-SELECT Col.Column.users from
-INFORMATION_SCHEMA.TABLE_CONSTRAINTS Tab,
-INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE Col
-WHERE
-Col.Constraint_Name = Tab.Constraint_Name
-AND Col.Table_Name = Tab.Table_Name
-And Constraint_Type = 'PRIMARY KEY'
-AND Col.Table_Name = '<users>'
+-- SELECT Col.Column.users from
+-- INFORMATION_SCHEMA.TABLE_CONSTRAINTS Tab,
+-- INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE Col
+-- WHERE
+-- Col.Constraint_Name = Tab.Constraint_Name
+-- AND Col.Table_Name = Tab.Table_Name
+-- And Constraint_Type = 'PRIMARY KEY'
+-- AND Col.Table_Name = '<users>'

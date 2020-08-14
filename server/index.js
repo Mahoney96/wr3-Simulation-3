@@ -17,7 +17,7 @@ massive({
     }
 }).then((dbInstance => {
     app.set('db', dbinstance);
-});
+}));
 
 
 
