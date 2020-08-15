@@ -20,17 +20,13 @@ class App extends React.Component {
   }
 }
 
-
-
-
-
 export default App;
 
-<Switch>
-      <Route exact path="/" component={Auth}/>
-      <Route path="/Dash" component={}/>
-      <Form path="/" component={}/>
-      <Post path="/" component={}/>
-      <Nav path="/" component={}/>
+// <Switch>
+//       <Route exact path="/" component={Auth}/>
+//       <Route path="/Dash" component={}/>
+//       <Form path="/" component={}/>
+//       <Post path="/" component={}/>
+//       <Nav path="/" component={}/>
   
-  </Switch>
+//   </Switch>

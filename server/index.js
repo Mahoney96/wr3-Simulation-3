@@ -5,9 +5,11 @@ const massive = require('massive');
 const app = express();
 
 
-// const port = 3993;
+
 
 const {CONNECTION_STRING, SESSION_SECRET, SERVER_PORT} = process.env;
+const PORT = 3993;
+
 
 app.use(express.json());
 // app.use(session({
