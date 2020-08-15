@@ -2,9 +2,10 @@
   "name": "wr3-simulation-3",
   "version": "0.1.0",
   "private": true,
-  "main": "server/index",
-  "proxy": ""
+  "main": "server/",
   "proxy": "http://localhost:3993",
+  "nodemon Config": { "ignore": ["src/*"] },
+
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

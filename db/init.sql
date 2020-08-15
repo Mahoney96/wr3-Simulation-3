@@ -18,3 +18,5 @@ INSERT INTO posts (id, title, img, content, author_id ) VALUES ('3', 'That is th
 -- AND Col.Table_Name = Tab.Table_Name
 -- And Constraint_Type = 'PRIMARY KEY'
 -- AND Col.Table_Name = '<users>'
+
+-- ssl: {rejectUnauthorized: false}
