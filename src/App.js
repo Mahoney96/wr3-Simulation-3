@@ -2,11 +2,11 @@ import React from 'react';
 import './App.css';
 import './reset.css';
 import {Switch, Route} from 'react-router-dom';
-import Auth from './Components/Auth';
-import DashBoard from './Components/DashBoard';
-import Form from './Components/Form';
-import Nav from './Components/Nav';
-import Post from './Components/Post';
+import Auth from './Components/Auth/Auth';
+import DashBoard from './Components/DashBoard/DashBoard';
+import Form from './Components/Form/Form';
+import Nav from './Components/Nav/Nav';
+import Post from './Components/Post/Post';
 
 class App extends React.Component {
   render(){
