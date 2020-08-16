@@ -1,5 +1,5 @@
 const bcrypt = require(bcrypt);
 
-module.exports = { 
-    
-}
+// module.exports = { 
+//     ssl: {rejectUnauthorized: false}
+// }
