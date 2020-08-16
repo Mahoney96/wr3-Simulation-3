@@ -24,7 +24,7 @@ export default App;
 
 <Switch>
       <Route exact path="/Auth" component={Auth}/>
-      <Route path="/Dash_board" component={Dashboard}/>
+      <Route path="/Dashboard" component={Dashboard}/>
       <Form path="/Form" component={Form}/>
       <Post path="/Post" component={Post}/>
       <Nav path="/Nav" component={Nav}/>
