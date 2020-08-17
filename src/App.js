@@ -11,13 +11,13 @@ import Post from './Components/Post/Post';
 class App extends React.Component {
   render(){
     return <div>
+
     <Switch>
       <Route exact path="/Auth" component={Auth}/>
       <Route path="/Dashboard" component={DashBoard}/>
-      <Form path="/Form" component={Form}/>
-      <Post path="/Post" component={Post}/>
-      <Nav path="/Nav" component={Nav}/>
-  
+      <Route path="/Form" component={Form}/>
+      <Route path="/Post" component={Post}/>
+      <Route path="/Nav" component={Nav}/>
   </Switch>
     </div>
   }

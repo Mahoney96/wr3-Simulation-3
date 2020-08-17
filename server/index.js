@@ -26,7 +26,6 @@ massive({
     console.log('connected to db')
 }).catch(err => console.log(err));
 
-app.post('/')
 
 
 app.listen(SERVER_PORT, () => console.log(`Hey Hey, Your Server Works Today ${SERVER_PORT}`));
